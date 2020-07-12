@@ -12,12 +12,6 @@
 import os
 import requests
 import configparser
-
-try:
-    from model.WYU_ResNet_captcah import UseCPU
-except:
-    from .model.WYU_ResNet_captcah import UseCPU
-
 from io import BytesIO
 from PIL import Image
 
@@ -73,9 +67,9 @@ class WYULogin:
         print('>=获取WYU系统验证码=<')
         yzm_response = self.session.get(url_yzm)  # 获取验证码响应
         yzm_img = Image.open(BytesIO(yzm_response.content))
+        yzm_img.show()
         print('>=验证码识别=<')
-        t, yzm = UseCPU(yzm_img)  # 识别时间、识别结果
-        print(f'验证码识别花费时间:{t}s')
+        yzm = input('请输入验证码:')
         return yzm
 
     def account_update(self):
