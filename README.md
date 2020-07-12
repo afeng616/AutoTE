@@ -51,10 +51,10 @@ python3.6
 使用说明  
 * 以Windows 10下PowerShell终端使用进行说明  
 * 完成操作，等待脚本自动进行教师评价  
-![使用](./images/use.png)
+![使用](https://xiaofengtest.cn/data/images/use.png)
 
 效果说明  
 * 脚本按照程序预设进行教师评价，点击查看与正常提交操作无异！
 * 对老师默认评价为优秀（总分95.02）、意见为空
-![效果1](./images/result1.png)
-![效果2](./images/result2.png)
+![效果1](https://xiaofengtest.cn/data/images/result1.png)
+![效果2](https://xiaofengtest.cn/data/images/result2.png)
