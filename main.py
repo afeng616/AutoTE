@@ -8,8 +8,9 @@
     @Contact: afeng616@gmail.com
     @Description: 
 """
-from operate.evaluate import Evaluate
 import os
+
+from operate.evaluate import Evaluate
 
 if __name__ == '__main__':
     print("""
