@@ -62,4 +62,4 @@ url = 'https://jxfw.gdut.edu.cn/xxxxxxxx'
 ![效果1](https://xiaofengtest.cn/data/images/result1.png)
 ![效果2](https://xiaofengtest.cn/data/images/result2.png)
 ![点关注不迷路](https://xiaofengtest.cn/data/images/subscribe.png)
-关注公众号AfengTest，了解更多技术分享
+关注公众号`AfengTest`，了解更多技术分享
