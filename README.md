@@ -1,17 +1,23 @@
-一键自动完成教师评价
+五邑大学、广东工业大学一键评教脚本
 ------
 *写入账号密码后，自动识别验证码并进行登录，随后自动完成教师评价*  
 *author: afeng*  
 *date: 2020/07/12*  
 ***脚本涉及的验证码识别部分系Jorver开发，暂不公布***  
 *半自动化脚本，可直接运行，需手动输入验证码|[查看半自动化脚本](https://github.com/afeng616/AutoTE/tree/done)*
-
 环境说明
 * 编写环境  
 python3.6
 
 脚本说明  
-该脚本应用于每学期末对各位老师进行自动评价 
+该脚本应用于每学期末对各位老师进行自动评价  
+距目前了解，五邑大学、广东工业大学教务系统共用同一模板  
+当前代码为WYU使用，只需修改请求url域名即可，后续可能更新通用版
+```
+# 将http://jxgl.wyu.edu.cn置换为https://jxfw.gdut.edu.cn即可
+url = 'https://jxfw.gdut.edu.cn/xxxxxxxx'
+```
+ 
  
 教师评价系统中，根据不同老师授予的课程教学环节不同，评价内容不同。  
 * V1.0 2019/06/12 手动输入验证码
@@ -59,3 +65,5 @@ python3.6
 * 对老师默认评价为优秀（总分95.02）、意见为空
 ![效果1](https://xiaofengtest.cn/data/images/result1.png)
 ![效果2](https://xiaofengtest.cn/data/images/result2.png)
+![点关注不迷路](https://xiaofengtest.cn/data/images/subscribe.png)
+关注公众号`AfengTest`，了解更多技术分享
