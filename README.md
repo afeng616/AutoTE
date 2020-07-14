@@ -5,11 +5,11 @@
 *date: 2020/07/12*  
 ***脚本涉及的验证码识别部分系Jorver开发，暂不公布***  
 *半自动化脚本，可直接运行，需手动输入验证码|[查看半自动化脚本](https://github.com/afeng616/AutoTE/tree/done)*
-环境说明
+#### 环境说明
 * 编写环境  
 python3.6
 
-脚本说明  
+#### 脚本说明  
 该脚本应用于每学期末对各位老师进行自动评价  
 距目前了解，五邑大学、广东工业大学教务系统共用同一模板  
 当前代码为WYU使用，只需修改请求url域名即可，后续可能更新通用版
@@ -38,8 +38,7 @@ url = 'https://jxfw.gdut.edu.cn/xxxxxxxx'
 - [ ] 及格
 - [ ] 不及格
 
- Run
----
+#### Run
 运行脚本
 ```
     python3 ./main.py
@@ -53,14 +52,13 @@ url = 'https://jxfw.gdut.edu.cn/xxxxxxxx'
     Evaluate(os.path.dirname(__file__), level='A').evaluate()
 ```
 
-效果
----
-使用说明  
+#### 效果
+##### 使用说明  
 * 以Windows 10下PowerShell终端使用进行说明  
 * 完成操作，等待脚本自动进行教师评价  
 ![使用](https://xiaofengtest.cn/data/images/use.png)
 
-效果说明  
+##### 效果说明  
 * 脚本按照程序预设进行教师评价，点击查看与正常提交操作无异！
 * 对老师默认评价为优秀（总分95.02）、意见为空
 ![效果1](https://xiaofengtest.cn/data/images/result1.png)
